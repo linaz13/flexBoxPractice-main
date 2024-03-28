@@ -1,0 +1,56 @@
+
+header, main, .mainContent, footer, aside{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.top{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.bottom{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+header{
+    background-color: lightyellow;    
+    flex-basis: 25%;
+    height: 500px;
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+    flex-basis: 75%;
+}
+
+main{
+    background-color: lightgrey;
+    height: 150px;
+}
+
+.mainContent{
+    background-color: lightblue;
+    height: 325px; 
+}
+
+aside{
+    background-color: palevioletred;
+    flex-basis: 25%;
+    height: 500px;
+    flex-direction: row;
+}
+
+footer{
+    background-color: red;
+    flex-basis: 100%;
+    height: 150px;
+    flex-direction: column;
+   }
+

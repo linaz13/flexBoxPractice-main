@@ -1,0 +1,98 @@
+header, footer{
+    border: 1px solid black;
+    width: 100%;
+}
+
+header{
+    background-color: lightyellow;
+    margin-bottom: 25px;
+    height: 100px;
+    align-items: center;
+}
+
+#headerBox{
+    border: 1px solid black;
+    background-color: green;
+    margin: 30px;
+    height: 60px;
+    width: 100px;
+}
+
+#logIn{
+    font-size: xx-large;
+    margin-left: 65%;
+    color: black;
+}
+/*Como hacer para alinear permanentemente Log In a la derecha*/
+
+
+main, nav, header, footer{
+    display: flex;
+}
+
+.smallBox{
+    border: 1px solid black;
+    height: 25px;
+    background-color: pink;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    justify-content: space-between;
+    flex-basis: 25%;
+    flex-direction: row;
+}
+
+#firstBox{
+    margin-left: 0px;
+}
+
+.invisibleBox{
+    background-color: white;
+    border: 0px;
+}
+
+#lastBox{
+    border-radius: 50%; /*circular shape*/
+    background-color: green;
+    justify-content: right;
+    flex-basis: 50px; /*size of the box*/
+    margin-left: 15%; /*Keep the circle close to the rigth*/
+}
+
+#section01, #section02{
+    border: 1px solid black;
+    height: 150px;
+}
+
+#section01{
+    flex-basis: 25%;
+    background-color: lightgrey;
+    margin-right: 25px;
+}
+
+#section02{
+    flex-basis: 75%;
+    background-color: lightgreen;
+    margin-left: 25px;
+}
+
+footer{
+    background-color: lightblue;
+    height: 150px;
+    margin-top: 25px;
+    justify-content: flex-end;
+}
+
+.footerBox{
+    display: flex;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    margin: 15px;
+    width: 150px;
+    align-items: center;/*alinea el texto en el centro del cuadro con respecto a la vertical*/ 
+    justify-content: center; /*situa el texto en el centro del cuadro con respecto a la horizontal*/
+}
+
+span{
+    color: white;
+    font-size: x-large;
+}

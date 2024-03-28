@@ -1,0 +1,31 @@
+body{
+    display: flex;
+}
+
+header, main, footer{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+header{
+    background-color: lightyellow;    
+    flex-basis: 25%;
+    height: 750px;
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+    flex-basis: 75%;
+}
+
+main{
+    background-color: lightblue;
+    height: 365px;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 365px; 
+}
+

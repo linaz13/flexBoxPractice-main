@@ -1,0 +1,57 @@
+header, footer{
+    border: 1px solid black;
+    width: 100%;
+}
+
+header{
+    background-color: lightyellow;
+    margin-bottom: 25px;
+    height: 100px;
+}
+
+main, nav{
+    display: flex;
+}
+
+.smallBox{
+    border: 1px solid black;
+    height: 25px;
+    background-color: pink;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    justify-content: space-between;
+    flex-basis: 25%;
+    flex-direction: row;
+}
+
+#firstBox{
+    margin-left: 0px;
+}
+
+.invisibleBox{
+    background-color: white;
+    border: 0px;
+}
+
+#section01, #section02{
+    border: 1px solid black;
+    height: 150px;
+}
+
+#section01{
+    flex-basis: 25%;
+    background-color: lightgrey;
+    margin-right: 25px;
+}
+
+#section02{
+    flex-basis: 75%;
+    background-color: lightgreen;
+    margin-left: 25px;
+}
+
+footer{
+    background-color: lightblue;
+    height: 150px;
+    margin-top: 25px;
+}

@@ -1,0 +1,17 @@
+header, main, footer{
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+}
+
+header{
+    background-color: lightyellow;
+}
+
+main{
+    background-color: lightgrey;
+}
+
+footer{
+    background-color: lightblue;
+}

@@ -1,0 +1,33 @@
+header, footer{
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+}
+
+header{
+    background-color: lightyellow;
+    margin-bottom: 25px;
+}
+
+main{
+    display: flex;
+}
+
+#section01, #section02{
+    flex-basis: 50%;
+    border: 1px solid black;
+    height: 150px;
+}
+
+#section01{
+    background-color: lightgrey;
+}
+
+#section02{
+    background-color: lightgreen;
+}
+
+footer{
+    background-color: lightblue;
+    margin-top: 25px;
+}
